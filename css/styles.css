@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Common styles */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.section {
+  max-width: 1046px;
+  margin: 0 auto;
+}
+
+.ibg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Header--------------------------------------------------------------- */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+}
+
+@media (max-width: 479px) {
+  .header-container {
+    min-height: 80;
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+.header-logo {
+  margin-right: 132px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(32 / 24);
+  letter-spacing: 0.1px;
+
+  color: #252b42;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #737373;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 20px;
+}
+/* Hero---------------------------------------------------- */
+.hero {
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-box {
+}
+.section {
+}
+.hero-container {
+  width: 509px;
+  padding-top: 184px;
+  padding-bottom: 191px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-container > *:not(:last-child) {
+  padding-bottom: 35px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.38;
+
+  letter-spacing: 0.2px;
+
+  color: #252b42;
+}
+.hero-list {
+  display: flex;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  letter-spacing: 0.2px;
+
+  color: #737373;
+}
+
+.hero-item {
+  padding: 10px 36px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+
+  background: #ff7b47;
+  border-radius: 37px;
+}
+.hero-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.hero-link {
+}
+
+.hero-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.hero-pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
